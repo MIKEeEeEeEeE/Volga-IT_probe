@@ -190,7 +190,7 @@ void step(Player &player, Fairyland &world){
     if (player.map1[player.x][player.y] > 3)
         player.stuck = true;
 
-    printMap(player.map);
+    //printMap(player.map);
 }
 
 int walk(){
